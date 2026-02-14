@@ -1,0 +1,113 @@
+{
+  "semantic_scholar_papers": [
+    {
+      "paperId": "e23dc55ec50a996d01baa56c3a1407a28e17ddea",
+      "title": "Graph Attention Networks",
+      "abstract": "We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations.",
+      "authors": [
+        {"name": "Petar Veličković"},
+        {"name": "Guillem Cucurull"},
+        {"name": "Arantxa Casanova"}
+      ],
+      "year": 2018,
+      "citationCount": 12543,
+      "url": "https://www.semanticscholar.org/paper/e23dc55ec50a996d01baa56c3a1407a28e17ddea",
+      "venue": "ICLR",
+      "publicationDate": "2018-02-04"
+    },
+    {
+      "paperId": "649def34f8be52c8b66281af98ae884c09aef38b",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "abstract": "We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs.",
+      "authors": [
+        {"name": "Thomas N. Kipf"},
+        {"name": "Max Welling"}
+      ],
+      "year": 2017,
+      "citationCount": 18765,
+      "url": "https://www.semanticscholar.org/paper/649def34f8be52c8b66281af98ae884c09aef38b",
+      "venue": "ICLR",
+      "publicationDate": "2017-02-22"
+    },
+    {
+      "paperId": "abc123def456ghi789jkl012mno345pqr678stu90",
+      "title": "Molecular Property Prediction with Graph Neural Networks",
+      "abstract": "We propose a novel graph neural network architecture for predicting molecular properties from chemical structure representations.",
+      "authors": [
+        {"name": "Jane Smith"},
+        {"name": "John Doe"}
+      ],
+      "year": 2024,
+      "citationCount": 145,
+      "url": "https://www.semanticscholar.org/paper/abc123def456ghi789jkl012mno345pqr678stu90",
+      "venue": "NeurIPS",
+      "publicationDate": "2024-01-15"
+    }
+  ],
+  "arxiv_papers": [
+    {
+      "entry_id": "http://arxiv.org/abs/2103.14030v1",
+      "title": "Recipe for a General, Powerful, Scalable Graph Transformer",
+      "summary": "We present Graphormer, a transformer architecture for graph-structured data. Graphormer achieves state-of-the-art performance on a wide range of graph-level prediction tasks.",
+      "authors": ["Chengxuan Ying", "Tianle Cai", "Shengjie Luo"],
+      "published": "2021-03-25T17:57:43Z",
+      "categories": ["cs.LG", "cs.AI"],
+      "pdf_url": "http://arxiv.org/pdf/2103.14030v1"
+    },
+    {
+      "entry_id": "http://arxiv.org/abs/2401.98765v2",
+      "title": "Graph Transformers for Drug Discovery",
+      "summary": "We introduce a graph transformer model specifically designed for molecular property prediction in drug discovery applications.",
+      "authors": ["Alice Johnson", "Bob Williams"],
+      "published": "2024-01-20T10:30:00Z",
+      "categories": ["cs.LG", "q-bio.BM"],
+      "pdf_url": "http://arxiv.org/pdf/2401.98765v2"
+    }
+  ],
+  "citation_data": {
+    "e23dc55ec50a996d01baa56c3a1407a28e17ddea": {
+      "references": [
+        "649def34f8be52c8b66281af98ae884c09aef38b",
+        "ref001",
+        "ref002"
+      ],
+      "citations": [
+        "cite001",
+        "cite002",
+        "cite003",
+        "abc123def456ghi789jkl012mno345pqr678stu90"
+      ],
+      "influentialCitationCount": 450
+    },
+    "649def34f8be52c8b66281af98ae884c09aef38b": {
+      "references": [
+        "ref003",
+        "ref004"
+      ],
+      "citations": [
+        "e23dc55ec50a996d01baa56c3a1407a28e17ddea",
+        "cite004",
+        "cite005",
+        "cite006"
+      ],
+      "influentialCitationCount": 890
+    },
+    "abc123def456ghi789jkl012mno345pqr678stu90": {
+      "references": [
+        "e23dc55ec50a996d01baa56c3a1407a28e17ddea",
+        "649def34f8be52c8b66281af98ae884c09aef38b"
+      ],
+      "citations": [
+        "cite007"
+      ],
+      "influentialCitationCount": 12
+    }
+  },
+  "test_queries": [
+    "graph neural networks",
+    "molecular property prediction",
+    "graph transformers",
+    "drug discovery machine learning",
+    "graph attention mechanisms"
+  ]
+}
